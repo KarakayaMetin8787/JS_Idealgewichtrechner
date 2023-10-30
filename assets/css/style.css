@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outerContainer {
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 30px auto 0 auto;
+  width: 30%;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 2px white;
+}
+.outerContainer .innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.outerContainer .innerContainer p {
+  width: 100%;
+  margin-block: 10px;
+}
+.outerContainer .innerContainer label:nth-of-type(1), .outerContainer .innerContainer label:nth-of-type(2) {
+  width: 100%;
+  margin-block: 10px;
+}
+.outerContainer .innerContainer input:nth-of-type(1), .outerContainer .innerContainer input:nth-of-type(2) {
+  width: 100%;
+  padding: 5px;
+}
+.outerContainer .innerContainer label:nth-of-type(3), .outerContainer .innerContainer label:nth-of-type(4) {
+  margin-inline: 10px;
+}
+.outerContainer input {
+  float: right;
+  padding: 5px;
+}
+.outerContainer p {
+  margin-top: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
